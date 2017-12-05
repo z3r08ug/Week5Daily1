@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chris.week5daily1.GeocodingActivity">
+
+    <Button
+        android:text="Geocoding Using Api"
+        android:onClick="goToApi"
+        android:id="@+id/btnGoToApiGeocoding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Geocoding Using Geocoder"
+        android:onClick="goToGeocoder"
+        android:id="@+id/btnGoToGeocoder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="View Addresses On Map"
+        android:onClick="goToMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

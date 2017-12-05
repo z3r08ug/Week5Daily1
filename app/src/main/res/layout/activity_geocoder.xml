@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chris.week5daily1.GeocoderActivity">
+
+    <Button
+        android:id="@+id/btnGGC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGeocoding"
+        android:text="Geocoding Using Geocoder" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude, Longitude:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGeocoderLatlong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnRGC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onReverseGeocoding"
+        android:text="ReverseGeocoding Using Geocoder" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGeocoderAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:text="View Addresses On Map"
+        android:onClick="goToMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
