@@ -22,6 +22,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/btnGoToMap"
         android:text="View Addresses On Map"
         android:onClick="goToMap"
         android:layout_width="match_parent"
